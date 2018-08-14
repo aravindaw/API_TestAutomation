@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--parallel="methods"/"false"-->
+<suite name="Test smart switch response" parallel="false" thread-count="1" verbose="10">
+    <test name="TC01">
+        <classes>
+            <class name="com.viewQwest.appTesting.scripts.OTC34_TurnOnSmartSwitch"/>
+        </classes>
+    </test>
+    <test name="TC02">
+        <classes>
+            <class name="com.viewQwest.appTesting.scripts.OTC35_TurnOffSmartSwitch"/>
+        </classes>
+    </test>
+</suite>

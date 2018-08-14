@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--parallel="methods"/"false"-->
+<suite name="Get sensor status" parallel="false" thread-count="1" verbose="10">
+    <test name="TC03">
+        <classes>
+            <class name="com.viewQwest.appTesting.scripts.OTC36_GetDoorSensorStatus"/>
+        </classes>
+    </test>
+    <test name="TC04">
+        <classes>
+            <class name="com.viewQwest.appTesting.scripts.OTC37_GetLuminanceSensorStatus"/>
+        </classes>
+    </test>
+    <test name="TC05">
+        <classes>
+            <class name="com.viewQwest.appTesting.scripts.OTC38_GetBurglarAlarmStatus"/>
+        </classes>
+    </test>
+    <test name="TC06">
+        <classes>
+            <class name="com.viewQwest.appTesting.scripts.OTC42_GetGeneralAlarmStatus"/>
+        </classes>
+    </test>
+    <test name="TC07">
+        <classes>
+            <class name="com.viewQwest.appTesting.scripts.OTC39_GetTemperatureSensorStatus"/>
+        </classes>
+    </test>
+    <test name="TC08">
+        <classes>
+            <class name="com.viewQwest.appTesting.scripts.OTC40_GetHumiditySensorStatus"/>
+        </classes>
+    </test>
+    <test name="TC09">
+        <classes>
+            <class name="com.viewQwest.appTesting.scripts.OTC41_GetSmartSwitchStatus"/>
+        </classes>
+    </test>
+</suite>
